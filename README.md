@@ -4,7 +4,6 @@
 [![DOI](https://img.shields.io/badge/DOI-10.xxxx%2Fxxxxxx-blue)](https://doi.org/your-doi-link)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg)](https://arxiv.org/abs/xxxx.xxxxx)
 
 A novel machine learning-based stock trading system that combines **Turning Points Labeling (TPL)** with **Multi-stage Self-adaptive Feature Engineering (MSFE)** to generate profitable Buy/Sell trading signals.
 
@@ -191,14 +190,6 @@ If you find this repository useful, please consider giving it a ⭐!
 **Made with ❤️ for the Research Community**
 
 If this work helps your research, please cite our paper and give us a ⭐!
-
-**Repository**: https://github.com/yourusername/trading-tpl-msfe  
-**Paper**: https://doi.org/your-doi-link  
-**Documentation**: https://trading-tpl-msfe.readthedocs.io
-
-*Last Updated: [Current Date]*
-
-</div>
 
 ## 📖 Citation
 
