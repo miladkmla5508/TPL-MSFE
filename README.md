@@ -25,43 +25,6 @@ This repository implements an advanced trading system designed to address the fu
 - 💰 **Two-Sided Trading**: Greedy Long/Short strategy maximizing both buy and sell opportunities
 
 
-## 🚀 Installation
-
-### Prerequisites
-
-- Python 3.8 or higher
-- pip package manager
-- Git
-
-### Clone Repository
-
-```bash
-git clone https://github.com/yourusername/trading-tpl-msfe.git
-cd trading-tpl-msfe
-```
-
-### Create Virtual Environment
-
-```bash
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# On Linux/Mac:
-source venv/bin/activate
-
-# On Windows:
-venv\Scripts\activate
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## 📦 Requirements
 
 ### Core Dependencies
@@ -78,30 +41,6 @@ matplotlib>=3.4.0
 seaborn>=0.11.0
 shap>=0.40.0
 ```
-
-### Additional Libraries
-
-```txt
-yfinance>=0.1.70        # For downloading stock data
-ta>=0.10.0              # Technical analysis indicators
-scipy>=1.7.0            # Scientific computing
-plotly>=5.0.0           # Interactive visualizations
-jupyter>=1.0.0          # Notebook support
-tqdm>=4.62.0            # Progress bars
-pyyaml>=5.4.0           # Configuration files
-```
-
-### Optional Dependencies
-
-```txt
-tensorboard>=2.8.0      # For neural network training visualization
-optuna>=2.10.0          # Hyperparameter optimization
-mlflow>=1.20.0          # Experiment tracking
-```
-
-See [requirements.txt](requirements.txt) for the complete list of dependencies with pinned versions.
-
----
 
 ## 📥 Replication Package
 
