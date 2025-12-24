@@ -52,18 +52,12 @@ To ensure full reproducibility, we provide:
 - ✅ Result files and analysis notebooks
 - ✅ Step-by-step replication guide
 
-**Download**: [Replication Package (DOI)](#) | [Zenodo Archive](#)
-
----
-
 ## 📊 Supplementary Materials
 
 - **Part A**: Explainable visualized representation of stocks' trading platform - [PDF Link](#)
 - **Part B**: Explainability of feature importance evolution across all windows - [PDF Link](#)
 - **Part C**: Table of models' financial performance evaluation - [PDF Link](#)
 - **Part D**: The graphical representation of the trading systems' value - [Web Link](#)
-
----
 
 ## 🤝 Contributing
 
