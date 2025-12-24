@@ -70,26 +70,13 @@ This software is released in support of open science and reproducible research. 
 
 **By using this repository, you acknowledge that you have read, understood, and agree to this disclaimer.**
 
----
-
-### Reporting Issues
-
-Found a bug or have a suggestion? Please:
-1. Check existing [GitHub Issues](https://github.com/yourusername/trading-tpl-msfe/issues)
-2. Create a new issue with detailed description
-3. Include steps to reproduce (for bugs)
-
----
-
 
 ## 📊 Supplementary Materials
 
-- **Appendix A**: Extended ablation studies - [PDF Link](#)
-- **Appendix B**: Additional stock results - [PDF Link](#)
-- **Appendix C**: Hyperparameter sensitivity analysis - [PDF Link](#)
-- **Interactive Dashboard**: Explore results online - [Web Link](#)
-- **Video Presentation**: Conference talk - [YouTube Link](#)
-- **Slides**: Presentation slides - [PDF Link](#)
+- **Part A**: Explainable visualized representation of stocks’ trading platform - [PDF Link](#)
+- **Part B**: Explainability of feature importance evolution across all windows  - [PDF Link](#)
+- **Part C**: Table of models’ financial performance evaluation - [PDF Link](#)
+- **Part D**: The graphical representation of the trading systems’ value - [Web Link](#)
 
 ---
 
