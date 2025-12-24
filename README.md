@@ -1,5 +1,4 @@
 # Enhancing automated trading systems knowledge discovery through a novel fusion framework in predicting stocks explainable turning points
-
 ## Overview
 
 This repository implements an advanced trading system designed to address the fundamental challenge of "Buy Low, Sell High" in stock market trading. By fusing investor trading principles with adaptive feature engineering, the system provides timely, reliable, and substantially profitable Entry/Exit signals.
