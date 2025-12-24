@@ -29,31 +29,6 @@ If you use this code or reference our work in your research, please cite:
 }
 ```
 
-### Alternative Citation Formats
-
-**APA**:
-```
-Author1, F., Author2, S., & Author3, T. (2024). Enhancing automated trading systems 
-knowledge discovery through a novel fusion framework in predicting stocks explainable 
-turning points. Journal Name, XX(X), XXX-XXX. https://doi.org/10.xxxx/xxxxxx
-```
-
-**IEEE**:
-```
-F. Author1, S. Author2, and T. Author3, "Enhancing automated trading systems knowledge 
-discovery through a novel fusion framework in predicting stocks explainable turning 
-points," Journal Name, vol. XX, no. X, pp. XXX-XXX, 2024, doi: 10.xxxx/xxxxxx.
-```
-
-**MLA**:
-```
-Author1, First, et al. "Enhancing Automated Trading Systems Knowledge Discovery Through 
-a Novel Fusion Framework in Predicting Stocks Explainable Turning Points." Journal Name, 
-vol. XX, no. X, 2024, pp. XXX-XXX, doi:10.xxxx/xxxxxx.
-```
-
----
-
 ## Overview
 
 This repository implements an advanced trading system designed to address the fundamental challenge of "Buy Low, Sell High" in stock market trading. By fusing investor trading principles with adaptive feature engineering, the system provides timely, reliable, and substantially profitable Entry/Exit signals.
