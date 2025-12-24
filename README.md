@@ -9,25 +9,6 @@
 A novel machine learning-based stock trading system that combines **Turning Points Labeling (TPL)** with **Multi-stage Self-adaptive Feature Engineering (MSFE)** to generate profitable Buy/Sell trading signals.
 
 
-## 📖 Citation
-
-If you use this code or reference our work in your research, please cite:
-
-```bibtex
-@article{tpl_msfe_trading_2024,
-  title={Enhancing Automated Trading Systems Knowledge Discovery Through a Novel Fusion Framework in Predicting Stocks Explainable Turning Points},
-  author={Author1, First and Author2, Second and Author3, Third},
-  journal={Journal Name},
-  volume={XX},
-  number={X},
-  pages={XXX--XXX},
-  year={2024},
-  publisher={Publisher Name},
-  doi={10.xxxx/xxxxxx},
-  url={https://doi.org/your-doi-link}
-}
-```
-
 ## Overview
 
 This repository implements an advanced trading system designed to address the fundamental challenge of "Buy Low, Sell High" in stock market trading. By fusing investor trading principles with adaptive feature engineering, the system provides timely, reliable, and substantially profitable Entry/Exit signals.
@@ -305,3 +286,22 @@ If this work helps your research, please cite our paper and give us a ⭐!
 *Last Updated: [Current Date]*
 
 </div>
+
+## 📖 Citation
+
+If you use this code or reference our work in your research, please cite:
+
+```bibtex
+@article{tpl_msfe_trading_2024,
+  title={Enhancing Automated Trading Systems Knowledge Discovery Through a Novel Fusion Framework in Predicting Stocks Explainable Turning Points},
+  author={Author1, First and Author2, Second and Author3, Third},
+  journal={Journal Name},
+  volume={XX},
+  number={X},
+  pages={XXX--XXX},
+  year={2024},
+  publisher={Publisher Name},
+  doi={10.xxxx/xxxxxx},
+  url={https://doi.org/your-doi-link}
+}
+```
