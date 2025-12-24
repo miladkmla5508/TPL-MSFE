@@ -1,9 +1,84 @@
-# Enhancing automated trading systems knowledge discovery through a novel fusion framework in predicting stocks explainable turning points
+# Enhancing Automated Trading Systems Knowledge Discovery Through a Novel Fusion Framework in Predicting Stocks Explainable Turning Points
+
+[![Journal](https://img.shields.io/badge/Published%20in-Journal%20Name-blue)](https://doi.org/your-doi-link)
+[![DOI](https://img.shields.io/badge/DOI-10.xxxx%2Fxxxxxx-blue)](https://doi.org/your-doi-link)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg)](https://arxiv.org/abs/xxxx.xxxxx)
+
+A novel machine learning-based stock trading system that combines **Turning Points Labeling (TPL)** with **Multi-stage Self-adaptive Feature Engineering (MSFE)** to generate profitable Buy/Sell trading signals.
+
+---
+
+## 📄 Publication
+
+**Title**: Enhancing Automated Trading Systems Knowledge Discovery Through a Novel Fusion Framework in Predicting Stocks Explainable Turning Points
+
+**Authors**: [Author 1], [Author 2], [Author 3]
+
+**Published in**: [Journal Name] (ISSN: XXXX-XXXX)
+
+**Volume**: XX, **Issue**: X, **Pages**: XXX-XXX
+
+**Date**: [Month Year]
+
+**DOI**: [10.xxxx/xxxxxx](https://doi.org/your-doi-link)
+
+**Status**: ✅ **Accepted** - [Acceptance Date]
+
+---
+
+## 📖 Citation
+
+If you use this code or reference our work in your research, please cite:
+
+```bibtex
+@article{tpl_msfe_trading_2024,
+  title={Enhancing Automated Trading Systems Knowledge Discovery Through a Novel Fusion Framework in Predicting Stocks Explainable Turning Points},
+  author={Author1, First and Author2, Second and Author3, Third},
+  journal={Journal Name},
+  volume={XX},
+  number={X},
+  pages={XXX--XXX},
+  year={2024},
+  publisher={Publisher Name},
+  doi={10.xxxx/xxxxxx},
+  url={https://doi.org/your-doi-link}
+}
+```
+
+### Alternative Citation Formats
+
+**APA**:
+```
+Author1, F., Author2, S., & Author3, T. (2024). Enhancing automated trading systems 
+knowledge discovery through a novel fusion framework in predicting stocks explainable 
+turning points. Journal Name, XX(X), XXX-XXX. https://doi.org/10.xxxx/xxxxxx
+```
+
+**IEEE**:
+```
+F. Author1, S. Author2, and T. Author3, "Enhancing automated trading systems knowledge 
+discovery through a novel fusion framework in predicting stocks explainable turning 
+points," Journal Name, vol. XX, no. X, pp. XXX-XXX, 2024, doi: 10.xxxx/xxxxxx.
+```
+
+**MLA**:
+```
+Author1, First, et al. "Enhancing Automated Trading Systems Knowledge Discovery Through 
+a Novel Fusion Framework in Predicting Stocks Explainable Turning Points." Journal Name, 
+vol. XX, no. X, 2024, pp. XXX-XXX, doi:10.xxxx/xxxxxx.
+```
+
+---
+
 ## Overview
 
 This repository implements an advanced trading system designed to address the fundamental challenge of "Buy Low, Sell High" in stock market trading. By fusing investor trading principles with adaptive feature engineering, the system provides timely, reliable, and substantially profitable Entry/Exit signals.
 
 **Key Innovation**: Information fusion framework combining TPL and MSFE for enhanced trading knowledge discovery - a unique approach not previously explored in existing literature.
+
+---
 
 ## Key Features
 
@@ -14,7 +89,49 @@ This repository implements an advanced trading system designed to address the fu
 - 📈 **Comprehensive Testing**: Validated on 30 NYSE100 stocks from 2012-2023
 - 💰 **Two-Sided Trading**: Greedy Long/Short strategy maximizing both buy and sell opportunities
 
+---
+
 ## 🚀 Installation
+
+### Prerequisites
+
+- Python 3.8 or higher
+- pip package manager
+- Git
+
+### Clone Repository
+
+```bash
+git clone https://github.com/yourusername/trading-tpl-msfe.git
+cd trading-tpl-msfe
+```
+
+### Create Virtual Environment
+
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Linux/Mac:
+source venv/bin/activate
+
+# On Windows:
+venv\Scripts\activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 📦 Requirements
+
+### Core Dependencies
+
 ```txt
 python>=3.8
 pandas>=1.3.0
@@ -27,6 +144,31 @@ matplotlib>=3.4.0
 seaborn>=0.11.0
 shap>=0.40.0
 ```
+
+### Additional Libraries
+
+```txt
+yfinance>=0.1.70        # For downloading stock data
+ta>=0.10.0              # Technical analysis indicators
+scipy>=1.7.0            # Scientific computing
+plotly>=5.0.0           # Interactive visualizations
+jupyter>=1.0.0          # Notebook support
+tqdm>=4.62.0            # Progress bars
+pyyaml>=5.4.0           # Configuration files
+```
+
+### Optional Dependencies
+
+```txt
+tensorboard>=2.8.0      # For neural network training visualization
+optuna>=2.10.0          # Hyperparameter optimization
+mlflow>=1.20.0          # Experiment tracking
+```
+
+See [requirements.txt](requirements.txt) for the complete list of dependencies with pinned versions.
+
+---
+
 ## 📥 Replication Package
 
 To ensure full reproducibility, we provide:
@@ -37,11 +179,104 @@ To ensure full reproducibility, we provide:
 - ✅ Experiment configurations
 - ✅ Result files and analysis notebooks
 - ✅ Step-by-step replication guide
+
+**Download**: [Replication Package (DOI)](#) | [Zenodo Archive](#)
+
+---
+
+## 📊 Supplementary Materials
+
+- **Part A**: Explainable visualized representation of stocks' trading platform - [PDF Link](#)
+- **Part B**: Explainability of feature importance evolution across all windows - [PDF Link](#)
+- **Part C**: Table of models' financial performance evaluation - [PDF Link](#)
+- **Part D**: The graphical representation of the trading systems' value - [Web Link](#)
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions from the community!
+
+### How to Contribute
+
+1. **Fork the repository**
+   ```bash
+   git clone https://github.com/yourusername/trading-tpl-msfe.git
+   ```
+
+2. **Create a feature branch**
+   ```bash
+   git checkout -b feature/improvement
+   ```
+
+3. **Make your changes**
+   - Write clean, documented code
+   - Add tests for new features
+   - Update documentation as needed
+
+4. **Commit your changes**
+   ```bash
+   git commit -am 'Add new feature: description'
+   ```
+
+5. **Push to your branch**
+   ```bash
+   git push origin feature/improvement
+   ```
+
+6. **Create a Pull Request**
+   - Go to the original repository
+   - Click "New Pull Request"
+   - Describe your changes clearly
+
+### Types of Contributions
+
+- 🐛 Bug fixes
+- ✨ New features
+- 📝 Documentation improvements
+- 🎨 Code refactoring
+- ✅ Test coverage improvements
+- 🌐 Translation support
+
+### Code of Conduct
+
+Please be respectful and constructive in all interactions. We're committed to providing a welcoming and inclusive environment for all contributors.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+### MIT License Summary
+
+```
+Copyright (c) 2024 [Your Name/Organization]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
 ---
 
 ## ⚠️ Disclaimer
 
-**Important Notice**: This software is provided for **research and educational purposes only**. 
+**Important Notice**: This software is provided for **research and educational purposes only**.
 
 ### Risk Warning
 
@@ -70,61 +305,28 @@ This software is released in support of open science and reproducible research. 
 
 **By using this repository, you acknowledge that you have read, understood, and agree to this disclaimer.**
 
+---
 
-## 📊 Supplementary Materials
+## 📧 Contact
 
-- **Part A**: Explainable visualized representation of stocks’ trading platform - [PDF Link](#)
-- **Part B**: Explainability of feature importance evolution across all windows  - [PDF Link](#)
-- **Part C**: Table of models’ financial performance evaluation - [PDF Link](#)
-- **Part D**: The graphical representation of the trading systems’ value - [Web Link](#)
+For questions, suggestions, or collaboration opportunities:
+
+- 📧 **Email**: your.email@example.com
+- 🐛 **GitHub Issues**: [Create an issue](https://github.com/yourusername/trading-tpl-msfe/issues)
+- 💼 **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
 
 ---
 
-## 🤝 Contributing
+## 🙏 Acknowledgments
 
-We welcome contributions from the community!
+Special thanks to:
 
-### Types of Contributions
-
-- 🐛 Bug fixes
-- ✨ New features
-- 📝 Documentation improvements
-- 🎨 Code refactoring
-- ✅ Test coverage improvements
-- 🌐 Translation support
-
-### Code of Conduct
-
-Please be respectful and constructive in all interactions. We're committed to providing a welcoming and inclusive environment for all contributors.
+- **Professional investors and traders** whose practices inspired this work
+- **The open-source ML community** for foundational tools (scikit-learn, XGBoost, LightGBM, SHAP)
+- **NYSE** for providing comprehensive historical data
+- **Funding Agency**: [Grant Number] (if applicable)
 
 ---
-
-## 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-### MIT License Summary
-```
-Copyright (c) 2024 [Your Name/Organization]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
 
 ## 🌟 Star History
 
@@ -132,8 +334,18 @@ If you find this repository useful, please consider giving it a ⭐!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=yourusername/trading-tpl-msfe&type=Date)](https://star-history.com/#yourusername/trading-tpl-msfe&Date)
 
+---
+
+<div align="center">
+
 **Made with ❤️ for the Research Community**
 
 If this work helps your research, please cite our paper and give us a ⭐!
+
+**Repository**: https://github.com/yourusername/trading-tpl-msfe  
+**Paper**: https://doi.org/your-doi-link  
+**Documentation**: https://trading-tpl-msfe.readthedocs.io
+
+*Last Updated: [Current Date]*
 
 </div>
