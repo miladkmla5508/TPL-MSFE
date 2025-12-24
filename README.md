@@ -19,41 +19,6 @@ This repository implements an advanced trading system designed to address the fu
 
 ## 🚀 Installation
 
-### Prerequisites
-
-- Python 3.8 or higher
-- pip package manager
-- Git
-
-### Clone Repository
-```bash
-git clone https://github.com/yourusername/trading-tpl-msfe.git
-cd trading-tpl-msfe
-```
-
-### Create Virtual Environment
-```bash
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# On Linux/Mac:
-source venv/bin/activate
-# On Windows:
-venv\Scripts\activate
-```
-
-### Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 📦 Requirements
-
-### Core Dependencies
-```txt
 python>=3.8
 pandas>=1.3.0
 numpy>=1.21.0
