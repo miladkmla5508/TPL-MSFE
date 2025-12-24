@@ -39,8 +39,6 @@ To ensure full reproducibility, we provide:
 - ✅ Step-by-step replication guide
 ---
 
----
-
 ## ⚠️ Disclaimer
 
 **Important Notice**: This software is provided for **research and educational purposes only**. 
