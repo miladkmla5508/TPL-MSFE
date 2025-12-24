@@ -1,7 +1,5 @@
 # Enhancing automated trading systems knowledge discovery through a novel fusion framework in predicting stocks explainable turning points
 
-A novel machine learning-based stock trading system that combines **Turning Points Labeling (TPL)** with **Multi-stage Self-adaptive Feature Engineering (MSFE)** to generate profitable Buy/Sell trading signals.
-
 ## Overview
 
 This repository implements an advanced trading system designed to address the fundamental challenge of "Buy Low, Sell High" in stock market trading. By fusing investor trading principles with adaptive feature engineering, the system provides timely, reliable, and substantially profitable Entry/Exit signals.
@@ -189,18 +187,6 @@ Found a bug or have a suggestion? Please:
 If you find this repository useful, please consider giving it a ⭐!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=yourusername/trading-tpl-msfe&type=Date)](https://star-history.com/#yourusername/trading-tpl-msfe&Date)
-
----
-
-*Last Updated: [Current Date]*
-
-**Repository**: https://github.com/yourusername/trading-tpl-msfe  
-**Paper**: https://doi.org/your-doi-link  
-**Documentation**: https://trading-tpl-msfe.readthedocs.io
-
----
-
-<div align="center">
 
 **Made with ❤️ for the Research Community**
 
