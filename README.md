@@ -15,8 +15,6 @@ This repository implements an advanced trading system designed to address the fu
 
 **Key Innovation**: Information fusion framework combining TPL and MSFE for enhanced trading knowledge discovery - a unique approach not previously explored in existing literature.
 
----
-
 ## Key Features
 
 - 📊 **Turning Points Labeling (TPL)**: Novel labeling based on actual investor trading principles
@@ -26,7 +24,6 @@ This repository implements an advanced trading system designed to address the fu
 - 📈 **Comprehensive Testing**: Validated on 30 NYSE100 stocks from 2012-2023
 - 💰 **Two-Sided Trading**: Greedy Long/Short strategy maximizing both buy and sell opportunities
 
----
 
 ## 🚀 Installation
 
