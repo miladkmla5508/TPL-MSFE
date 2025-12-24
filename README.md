@@ -178,29 +178,6 @@ This software is released in support of open science and reproducible research. 
 
 **By using this repository, you acknowledge that you have read, understood, and agree to this disclaimer.**
 
----
-
-## 📧 Contact
-
-For questions, suggestions, or collaboration opportunities:
-
-- 📧 **Email**: your.email@example.com
-- 🐛 **GitHub Issues**: [Create an issue](https://github.com/yourusername/trading-tpl-msfe/issues)
-- 💼 **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
-
----
-
-## 🙏 Acknowledgments
-
-Special thanks to:
-
-- **Professional investors and traders** whose practices inspired this work
-- **The open-source ML community** for foundational tools (scikit-learn, XGBoost, LightGBM, SHAP)
-- **NYSE** for providing comprehensive historical data
-- **Funding Agency**: [Grant Number] (if applicable)
-
----
-
 ## 🌟 Star History
 
 If you find this repository useful, please consider giving it a ⭐!
