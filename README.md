@@ -10,24 +10,6 @@ A novel machine learning-based stock trading system that combines **Turning Poin
 
 ---
 
-## 📄 Publication
-
-**Title**: Enhancing Automated Trading Systems Knowledge Discovery Through a Novel Fusion Framework in Predicting Stocks Explainable Turning Points
-
-**Authors**: [Author 1], [Author 2], [Author 3]
-
-**Published in**: [Journal Name] (ISSN: XXXX-XXXX)
-
-**Volume**: XX, **Issue**: X, **Pages**: XXX-XXX
-
-**Date**: [Month Year]
-
-**DOI**: [10.xxxx/xxxxxx](https://doi.org/your-doi-link)
-
-**Status**: ✅ **Accepted** - [Acceptance Date]
-
----
-
 ## 📖 Citation
 
 If you use this code or reference our work in your research, please cite:
