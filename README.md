@@ -82,47 +82,7 @@ This software is released in support of open science and reproducible research. 
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! Here's how you can help:
-
-### How to Contribute
-
-1. **Fork the repository**
-```bash
-   git clone https://github.com/yourusername/trading-tpl-msfe.git
-```
-
-2. **Create a feature branch**
-```bash
-   git checkout -b feature/improvement
-```
-
-3. **Make your changes**
-   - Write clean, documented code
-   - Add tests for new features
-   - Update documentation as needed
-
-4. **Commit your changes**
-```bash
-   git commit -am 'Add new feature: description'
-```
-
-5. **Push to your branch**
-```bash
-   git push origin feature/improvement
-```
-
-6. **Create a Pull Request**
-   - Go to the original repository
-   - Click "New Pull Request"
-   - Describe your changes clearly
-
-### Contribution Guidelines
-
-- Follow PEP 8 style guide for Python code
-- Write clear commit messages
-- Add unit tests for new functionality
-- Update documentation for API changes
-- Ensure all tests pass before submitting PR
+We welcome contributions from the community!
 
 ### Types of Contributions
 
