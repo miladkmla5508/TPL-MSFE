@@ -163,15 +163,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-
-
 ## 🌟 Star History
 
 If you find this repository useful, please consider giving it a ⭐!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=yourusername/trading-tpl-msfe&type=Date)](https://star-history.com/#yourusername/trading-tpl-msfe&Date)
-
----
 
 **Made with ❤️ for the Research Community**
 
