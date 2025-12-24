@@ -39,6 +39,62 @@ To ensure full reproducibility, we provide:
 - ✅ Step-by-step replication guide
 ---
 
+---
+
+## ⚠️ Disclaimer
+
+**Important Notice**: This software is provided for **research and educational purposes only**. 
+
+### Risk Warning
+
+- 📉 **Trading Risk**: Trading in financial markets involves substantial risk of loss
+- 💰 **No Guarantees**: Past performance does not guarantee future results
+- 🎓 **Educational Use**: This system is intended for academic research and learning
+- ⚖️ **Not Financial Advice**: Nothing in this repository constitutes financial advice
+- 🔍 **Due Diligence**: Always conduct your own research before making investment decisions
+- 👨‍💼 **Consult Professionals**: Consult with qualified financial professionals for investment guidance
+
+### Legal Disclaimer
+
+The authors, contributors, and affiliated institutions:
+- Assume **no responsibility** for financial losses incurred through use of this system
+- Make **no warranties** regarding the accuracy, reliability, or profitability of the system
+- Do **not endorse** any specific trading strategies or investment decisions
+- Are **not liable** for any damages resulting from the use of this software
+
+### Academic Use
+
+This software is released in support of open science and reproducible research. Users are encouraged to:
+- Validate results independently
+- Understand the limitations of the methodology
+- Use appropriate risk management in any practical applications
+- Cite the original research when building upon this work
+
+**By using this repository, you acknowledge that you have read, understood, and agree to this disclaimer.**
+
+---
+
+### Reporting Issues
+
+Found a bug or have a suggestion? Please:
+1. Check existing [GitHub Issues](https://github.com/yourusername/trading-tpl-msfe/issues)
+2. Create a new issue with detailed description
+3. Include steps to reproduce (for bugs)
+
+---
+
+
+## 📊 Supplementary Materials
+
+- **Appendix A**: Extended ablation studies - [PDF Link](#)
+- **Appendix B**: Additional stock results - [PDF Link](#)
+- **Appendix C**: Hyperparameter sensitivity analysis - [PDF Link](#)
+- **Interactive Dashboard**: Explore results online - [Web Link](#)
+- **Video Presentation**: Conference talk - [YouTube Link](#)
+- **Slides**: Presentation slides - [PDF Link](#)
+
+---
+
 ## 🤝 Contributing
 
 We welcome contributions from the community! Here's how you can help:
@@ -124,62 +180,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
----
-
-## ⚠️ Disclaimer
-
-**Important Notice**: This software is provided for **research and educational purposes only**. 
-
-### Risk Warning
-
-- 📉 **Trading Risk**: Trading in financial markets involves substantial risk of loss
-- 💰 **No Guarantees**: Past performance does not guarantee future results
-- 🎓 **Educational Use**: This system is intended for academic research and learning
-- ⚖️ **Not Financial Advice**: Nothing in this repository constitutes financial advice
-- 🔍 **Due Diligence**: Always conduct your own research before making investment decisions
-- 👨‍💼 **Consult Professionals**: Consult with qualified financial professionals for investment guidance
-
-### Legal Disclaimer
-
-The authors, contributors, and affiliated institutions:
-- Assume **no responsibility** for financial losses incurred through use of this system
-- Make **no warranties** regarding the accuracy, reliability, or profitability of the system
-- Do **not endorse** any specific trading strategies or investment decisions
-- Are **not liable** for any damages resulting from the use of this software
-
-### Academic Use
-
-This software is released in support of open science and reproducible research. Users are encouraged to:
-- Validate results independently
-- Understand the limitations of the methodology
-- Use appropriate risk management in any practical applications
-- Cite the original research when building upon this work
-
-**By using this repository, you acknowledge that you have read, understood, and agree to this disclaimer.**
-
----
-
-### Reporting Issues
-
-Found a bug or have a suggestion? Please:
-1. Check existing [GitHub Issues](https://github.com/yourusername/trading-tpl-msfe/issues)
-2. Create a new issue with detailed description
-3. Include steps to reproduce (for bugs)
-
----
-
-
-## 📊 Supplementary Materials
-
-- **Appendix A**: Extended ablation studies - [PDF Link](#)
-- **Appendix B**: Additional stock results - [PDF Link](#)
-- **Appendix C**: Hyperparameter sensitivity analysis - [PDF Link](#)
-- **Interactive Dashboard**: Explore results online - [Web Link](#)
-- **Video Presentation**: Conference talk - [YouTube Link](#)
-- **Slides**: Presentation slides - [PDF Link](#)
-
----
 
 ## 🌟 Star History
 
