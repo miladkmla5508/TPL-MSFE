@@ -18,7 +18,7 @@ This repository implements an advanced trading system designed to address the fu
 - 💰 **Two-Sided Trading**: Greedy Long/Short strategy maximizing both buy and sell opportunities
 
 ## 🚀 Installation
-
+```txt
 python>=3.8
 pandas>=1.3.0
 numpy>=1.21.0
@@ -30,88 +30,6 @@ matplotlib>=3.4.0
 seaborn>=0.11.0
 shap>=0.40.0
 ```
-
-### Additional Libraries
-```txt
-yfinance>=0.1.70        # For downloading stock data
-ta>=0.10.0              # Technical analysis indicators
-scipy>=1.7.0            # Scientific computing
-plotly>=5.0.0           # Interactive visualizations
-jupyter>=1.0.0          # Notebook support
-tqdm>=4.62.0            # Progress bars
-pyyaml>=5.4.0           # Configuration files
-```
-
-### Optional Dependencies
-```txt
-tensorboard>=2.8.0      # For neural network training visualization
-optuna>=2.10.0          # Hyperparameter optimization
-mlflow>=1.20.0          # Experiment tracking
-```
-
-### Full Requirements File
-
-See [requirements.txt](requirements.txt) for the complete list of dependencies with pinned versions.
-
----
-
-## 🚀 Quick Start
-```bash
-# Reproduce paper results
-python reproduce_paper_results.py --config configs/paper_experiment.yaml
-
-# Run on your own data
-python demo.py --stock AAPL --start-date 2020-01-01 --end-date 2023-12-31
-
-# Train custom model
-python train.py --config configs/custom_config.yaml
-```
-
----
-
-## 💻 Usage Examples
-
-### Basic Trading System
-```python
-from trading_system import TPLMSFETrader
-import yfinance as yf
-
-# Download data
-data = yf.download('AAPL', start='2020-01-01', end='2023-12-31')
-
-# Initialize trader
-trader = TPLMSFETrader(
-    tpl_params={'window': 20, 'threshold': 0.02},
-    msfe_params={'stages': 3, 'adaptive': True}
-)
-
-# Train and backtest
-trader.fit(data)
-results = trader.backtest(data)
-
-print(f"Sharpe Ratio: {results['sharpe']:.2f}")
-print(f"Max Drawdown: {results['drawdown']:.2%}")
-print(f"Total Return: {results['return']:.2%}")
-```
-
-### Explainable AI Analysis
-```python
-from explainability import XAIAnalyzer
-
-# Analyze model decisions
-analyzer = XAIAnalyzer(trader.model)
-
-# Get regime-specific feature importance
-bull_importance = analyzer.get_regime_importance('bull')
-bear_importance = analyzer.get_regime_importance('bear')
-
-# Visualize decision process
-analyzer.plot_waterfall(trade_date='2023-06-15')
-analyzer.plot_feature_importance()
-```
-
----
-
 ## 📥 Replication Package
 
 To ensure full reproducibility, we provide:
@@ -122,9 +40,6 @@ To ensure full reproducibility, we provide:
 - ✅ Experiment configurations
 - ✅ Result files and analysis notebooks
 - ✅ Step-by-step replication guide
-
-**Download**: [Replication Package (DOI)](#) | [Zenodo Archive](#)
-
 ---
 
 ## 🤝 Contributing
@@ -244,35 +159,9 @@ This software is released in support of open science and reproducible research. 
 - Use appropriate risk management in any practical applications
 - Cite the original research when building upon this work
 
-**By using this software, you acknowledge that you have read, understood, and agree to this disclaimer.**
+**By using this repository, you acknowledge that you have read, understood, and agree to this disclaimer.**
 
 ---
-
-## 📧 Contact
-
-### Corresponding Author
-
-**[Corresponding Author Name]**  
-- 📧 Email: corresponding.author@university.edu  
-- 🏛️ Institution: [University/Institution Name]  
-- 🔗 Website: [Personal/Lab Website]
-
-### Co-Authors
-
-**[Author 2 Name]**  
-- 📧 Email: author2@university.edu  
-- 💻 GitHub: [@author2](https://github.com/author2)
-
-**[Author 3 Name]**  
-- 📧 Email: author3@university.edu  
-- 🔗 LinkedIn: [Author 3 LinkedIn](https://linkedin.com/in/author3)
-
-### For Specific Inquiries
-
-- **Paper Content & Methodology**: [author1@university.edu]
-- **Code Implementation & Technical Issues**: [author2@university.edu]
-- **Data Access & Replication**: [author3@university.edu]
-- **Collaboration Opportunities**: [corresponding.author@university.edu]
 
 ### Reporting Issues
 
@@ -283,24 +172,6 @@ Found a bug or have a suggestion? Please:
 
 ---
 
-## 🙏 Acknowledgments
-
-This research was supported by:
-
-- **Funding**: [Grant Number], [Funding Agency Name]
-- **Computational Resources**: [Institution HPC / Cloud Provider]
-- **Data Providers**: Yahoo Finance, New York Stock Exchange
-- **Open Source Community**: 
-  - scikit-learn, XGBoost, LightGBM developers
-  - SHAP library for explainable AI
-  - Python scientific computing ecosystem
-
-Special thanks to:
-- Reviewers for their valuable feedback
-- Conference/Workshop participants for insightful discussions
-- [Any specific individuals or groups to acknowledge]
-
----
 
 ## 📊 Supplementary Materials
 
@@ -310,33 +181,6 @@ Special thanks to:
 - **Interactive Dashboard**: Explore results online - [Web Link](#)
 - **Video Presentation**: Conference talk - [YouTube Link](#)
 - **Slides**: Presentation slides - [PDF Link](#)
-
----
-
-## 🔄 Version History & Updates
-
-- **v1.0.0** (2024-XX-XX): Initial release with paper acceptance
-- **v1.0.1** (2024-XX-XX): Bug fixes and documentation improvements
-- **v1.1.0** (2024-XX-XX): Added support for additional ML models
-- **Latest**: See [CHANGELOG.md](CHANGELOG.md) for detailed version history
-
-### Upcoming Features
-
-- [ ] Real-time trading integration
-- [ ] Additional technical indicators
-- [ ] Multi-asset portfolio optimization
-- [ ] Enhanced visualization dashboard
-- [ ] GPU acceleration for neural networks
-
----
-
-## 📚 Related Publications
-
-If you're interested in this work, you may also find these related publications useful:
-
-1. [Related Paper 1] - [Link](#)
-2. [Related Paper 2] - [Link](#)
-3. [Related Paper 3] - [Link](#)
 
 ---
 
