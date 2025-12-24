@@ -8,7 +8,6 @@
 
 A novel machine learning-based stock trading system that combines **Turning Points Labeling (TPL)** with **Multi-stage Self-adaptive Feature Engineering (MSFE)** to generate profitable Buy/Sell trading signals.
 
----
 
 ## 📖 Citation
 
