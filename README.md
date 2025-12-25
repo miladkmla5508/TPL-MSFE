@@ -178,7 +178,7 @@ If this work helps your research, please cite our paper and give us a ⭐!
 If you use this code or reference our work in your research, please cite:
 
 ```bibtex
-@article{tpl_msfe_trading_2024,
+@article{TPL+MSFE,
   title={Enhancing Automated Trading Systems Knowledge Discovery Through a Novel Fusion Framework in Predicting Stocks Explainable Turning Points},
   author={Author1, First and Author2, Second and Author3, Third},
   journal={Journal Name},
