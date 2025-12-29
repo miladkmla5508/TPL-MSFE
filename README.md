@@ -106,7 +106,7 @@ We welcome contributions from the community!
 
 ## ⚠️ Disclaimer
 
-**Important Notice**: This software is provided for **research and educational purposes only**.
+**Important Notice**: This code is provided for **research and educational purposes only**.
 
 ### Risk Warning
 
