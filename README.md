@@ -23,14 +23,17 @@
 [![Excel](https://img.shields.io/badge/openpyxl-3.1.5-green)](https://openpyxl.readthedocs.io/)
 
 
-A novel machine learning-based stock trading system that combines **Turning Points Labeling (TPL)** with **Multi-stage Self-adaptive Feature Engineering (MSFE)** to generate profitable Buy/Sell trading signals.
+A novel explainable machine learning-based stock trading system that combines **Turning Points Labeling (TPL)** with **Multi-stage Self-adaptive Feature Engineering (MSFE)** to generate profitable Buy/Sell trading signals.
 
 
 ## Overview
 
 This repository implements an advanced trading system designed to address the fundamental challenge of "Buy Low, Sell High" in stock market trading. By fusing investor trading principles with adaptive feature engineering, the system provides timely, reliable, and substantially profitable Entry/Exit signals.
 
-**Key Innovation**: Information fusion framework combining TPL and MSFE for enhanced trading knowledge discovery - a unique approach not previously explored in existing literature.
+**Key Innovation**: 
+- (1) Information fusion framework combining TPL and MSFE for enhanced trading knowledge discovery  
+- (2) Trading platform that integrates Explainable AI (XAI) to demystify algorithmic performance, including dynamic feature importance, model stability, and regime-specific behavior
+- (3) Comprehensive sensitivity and ablation analyses are conducted under diverse parameter configurations to examine the trading system’s behavior in relation to overfitting and the leakage dilemma.
 
 ## Key Features
 
@@ -47,16 +50,22 @@ This repository implements an advanced trading system designed to address the fu
 ### Core Dependencies
 
 ```txt
-python>=3.8
-pandas>=1.3.0
-numpy>=1.21.0
-scikit-learn>=1.0.0
-xgboost>=1.5.0
-lightgbm>=3.3.0
-catboost>=1.0.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
-shap>=0.40.0
+NumPy: 1.26.4
+Pandas: 2.2.3
+Seaborn: 0.12.2
+Matplotlib: 3.7.2
+mplfinance: 0.12.10b0
+yfinance: 0.2.61
+scikit-learn: 1.4.2
+shap: 0.44.1
+openpyxl: 3.1.5
+TA-Lib: 0.6.8
+pandas_market_calendars: 5.2.3
+statsmodels: 0.14.5
+mlxtend: 0.23.4
+xgboost: 2.0.3
+catboost: 1.2.8
+lightgbm: 4.6.0
 ```
 
 ## 📥 Replication Package
