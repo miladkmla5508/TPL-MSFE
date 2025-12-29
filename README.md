@@ -1,6 +1,6 @@
 # Enhancing Automated Trading Systems Knowledge Discovery Through a Novel Fusion Framework in Predicting Stocks Explainable Turning Points
 
-[![Journal](https://img.shields.io/badge/Published%20in-%20FinancialInnovation-blue)](https://doi.org/your-doi-link)
+[![Journal](https://img.shields.io/badge/Published%20in-%20Financial Innovation-blue)](https://doi.org/your-doi-link)
 [![DOI](https://img.shields.io/badge/DOI-10.xxxx%2Fxxxxxx-blue)](https://doi.org/your-doi-link)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
