@@ -31,9 +31,14 @@ A novel explainable machine learning-based stock trading system that combines **
 This repository implements an advanced trading system designed to address the fundamental challenge of "Buy Low, Sell High" in stock market trading. By fusing investor trading principles with adaptive feature engineering, the system provides timely, reliable, and substantially profitable Entry/Exit signals.
 
 **Key Innovation**: 
-- (1) Information fusion framework combining TPL and MSFE for enhanced trading knowledge discovery  
-- (2) Trading platform that integrates Explainable AI (XAI) to demystify algorithmic performance, including dynamic feature importance, model stability, and regime-specific behavior
-- (3) Comprehensive sensitivity and ablation analyses are conducted under diverse parameter configurations to examine the trading system’s behavior in relation to overfitting and the leakage dilemma.
+
+- Information fusion framework combining TPL and MSFE for enhanced trading knowledge discovery
+
+- Trading platform that integrates Explainable AI (XAI) to demystify algorithmic performance, including dynamic feature importance, model stability, and regime-specific behavior
+
+- Comprehensive sensitivity and ablation analyses are conducted under diverse parameter configurations to examine the trading system’s behavior in relation to overfitting and the leakage dilemma
+
+  
 
 ## Key Features
 
@@ -207,13 +212,13 @@ If you use this code or reference our work in your research, please cite:
 ```bibtex
 @article{TPL+MSFE,
   title={Enhancing Automated Trading Systems Knowledge Discovery Through a Novel Fusion Framework in Predicting Stocks Explainable Turning Points},
-  author={Author1, First and Author2, Second and Author3, Third},
-  journal={Journal Name},
+  author={Milad Kamali Alamdari, Hassan Mehtari Taheri, Sarfaraz Hashemkhani Zolfani},
+  journal={Financial Innovation},
   volume={XX},
   number={X},
   pages={XXX--XXX},
-  year={2024},
-  publisher={Publisher Name},
+  year={2026},
+  publisher={Springer},
   doi={10.xxxx/xxxxxx},
   url={https://doi.org/your-doi-link}
 }
