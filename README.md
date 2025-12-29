@@ -127,7 +127,7 @@ The authors, contributors, and affiliated institutions:
 
 ### Academic Use
 
-This software is released in support of open science and reproducible research. Users are encouraged to:
+This code is released in support of open science and reproducible research. Users are encouraged to:
 - Validate results independently
 - Understand the limitations of the methodology
 - Use appropriate risk management in any practical applications
