@@ -78,11 +78,10 @@ lightgbm: 4.6.0
 To ensure full reproducibility, we provide:
 
 - ✅ Complete source code
-- ✅ Pre-processed datasets with train/val/test splits
-- ✅ Trained model checkpoints
+- ✅ Pre-processed datasets with train/test splits
 - ✅ Experiment configurations
 - ✅ Result files and analysis notebooks
-- ✅ Step-by-step replication guide
+
 
 ## 📊 Supplementary Materials
 
