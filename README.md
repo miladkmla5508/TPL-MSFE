@@ -1,26 +1,31 @@
 # Enhancing Automated Trading Systems Knowledge Discovery Through a Novel Fusion Framework in Predicting Stocks Explainable Turning Points
 
-[![Journal](https://img.shields.io/badge/Published%20in-Financial%20Innovation-blue)](https://doi.org/your-doi-link)
-[![DOI](https://img.shields.io/badge/DOI-10.xxxx%2Fxxxxxx-blue)](https://doi.org/your-doi-link)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Journal](https://img.shields.io/badge/Published%20in-Financial%20Innovation-1f4fd8?style=flat-square)](https://doi.org/your-doi-link)
+[![DOI](https://img.shields.io/badge/DOI-10.xxxx%2Fxxxxxx-ff6f00?style=flat-square)](https://doi.org/your-doi-link)
+[![License](https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square)](LICENSE)
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-1.26.4-013243)](https://numpy.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-2.2.3-150458)](https://pandas.pydata.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7.2-11557c)](https://matplotlib.org/)
-[![Seaborn](https://img.shields.io/badge/Seaborn-0.12.2-4c72b0)](https://seaborn.pydata.org/)
-[![mplfinance](https://img.shields.io/badge/mplfinance-0.12.10b0-informational)](https://github.com/matplotlib/mplfinance)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4.2-f7931e)](https://scikit-learn.org/)
-[![XGBoost](https://img.shields.io/badge/XGBoost-2.0.3-brightgreen)](https://xgboost.ai/)
-[![LightGBM](https://img.shields.io/badge/LightGBM-4.6.0-9acd32)](https://lightgbm.readthedocs.io/)
-[![CatBoost](https://img.shields.io/badge/CatBoost-1.2.8-yellow)](https://catboost.ai/)
-[![mlxtend](https://img.shields.io/badge/mlxtend-0.23.4-blueviolet)](http://rasbt.github.io/mlxtend/)
-[![SHAP](https://img.shields.io/badge/SHAP-0.44.1-red)](https://shap.readthedocs.io/)
-[![Statsmodels](https://img.shields.io/badge/statsmodels-0.14.5-6c757d)](https://www.statsmodels.org/)
-[![TA--Lib](https://img.shields.io/badge/TA--Lib-0.6.8-darkgreen)](https://ta-lib.org/)
-[![yfinance](https://img.shields.io/badge/yfinance-0.2.61-lightgrey)](https://github.com/ranaroussi/yfinance)
-[![Market Calendars](https://img.shields.io/badge/Market%20Calendars-5.2.3-purple)](https://github.com/rsheftel/pandas_market_calendars)
-[![Excel](https://img.shields.io/badge/openpyxl-3.1.5-green)](https://openpyxl.readthedocs.io/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white&style=flat-square)](https://www.python.org/)
+
+[![NumPy](https://img.shields.io/badge/NumPy-1.26.4-013243?logo=numpy&logoColor=white&style=flat-square)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.2.3-150458?logo=pandas&logoColor=white&style=flat-square)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7.2-8e44ad?style=flat-square)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.12.2-4c72b0?style=flat-square)](https://seaborn.pydata.org/)
+[![mplfinance](https://img.shields.io/badge/mplfinance-0.12.10b0-34495e?style=flat-square)](https://github.com/matplotlib/mplfinance)
+
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4.2-f7931e?logo=scikitlearn&logoColor=white&style=flat-square)](https://scikit-learn.org/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-2.0.3-ff4d4d?style=flat-square)](https://xgboost.ai/)
+[![LightGBM](https://img.shields.io/badge/LightGBM-4.6.0-9acd32?style=flat-square)](https://lightgbm.readthedocs.io/)
+[![CatBoost](https://img.shields.io/badge/CatBoost-1.2.8-f1c40f?style=flat-square)](https://catboost.ai/)
+[![mlxtend](https://img.shields.io/badge/mlxtend-0.23.4-6f42c1?style=flat-square)](http://rasbt.github.io/mlxtend/)
+
+[![TA-Lib](https://img.shields.io/badge/TA--Lib-0.6.8-006400?style=flat-square)](https://ta-lib.org/)
+[![yfinance](https://img.shields.io/badge/yfinance-0.2.61-95a5a6?style=flat-square)](https://github.com/ranaroussi/yfinance)
+[![Market Calendars](https://img.shields.io/badge/Market%20Calendars-5.2.3-8e44ad?style=flat-square)](https://github.com/rsheftel/pandas_market_calendars)
+
+[![SHAP](https://img.shields.io/badge/SHAP-0.44.1-e74c3c?style=flat-square)](https://shap.readthedocs.io/)
+[![statsmodels](https://img.shields.io/badge/statsmodels-0.14.5-6c757d?style=flat-square)](https://www.statsmodels.org/)
+
+[![openpyxl](https://img.shields.io/badge/openpyxl-3.1.5-27ae60?style=flat-square)](https://openpyxl.readthedocs.io/)
 
 
 A novel explainable machine learning-based stock trading system that combines **Turning Points Labeling (TPL)** with **Multi-stage Self-adaptive Feature Engineering (MSFE)** to generate profitable Buy/Sell trading signals.
