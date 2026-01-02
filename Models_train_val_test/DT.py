@@ -42,16 +42,16 @@ cv_window = 252        # Size of each CV fold (1 year)
 
 # Hyperparameter Grid for Decision Tree
 param_grid = {
-    'criterion': ['gini', 'entropy'],  # Splitting criteria
-    'max_depth': [2, 3, 4, 5],  # Tree depth
-    'min_samples_split': [1, 2, 3],  # Min samples to split
-    'min_samples_leaf': [1, 2, 3],  # Min samples in leaf
-    'max_features': ['sqrt', 'log2'],  # Features per split
-    'min_impurity_decrease': [0.001, 0.01, 0.1],  # Impurity decrease threshold
-    'ccp_alpha': [0.001, 0.01, 0.1],  # Complexity parameter for pruning
-    #'class_weight': [None, 'balanced'],  # Class weights
-    'random_state': [0],  # Random seed
-    #'max_leaf_nodes': [None, 10, 20]  # Maximum leaf nodes
+    'criterion': ['gini', 'entropy'],              # Splitting criteria
+    'max_depth': [2, 3, 4, 5],                     # Tree depth
+    'min_samples_split': [1, 2, 3],                # Min samples to split
+    'min_samples_leaf': [1, 2, 3],                 # Min samples in leaf
+    'max_features': ['sqrt', 'log2'],              # Features per split
+    'min_impurity_decrease': [0.001, 0.01, 0.1],   # Impurity decrease threshold
+    'ccp_alpha': [0.001, 0.01, 0.1],               # Complexity parameter for pruning
+    #'class_weight': [None, 'balanced'],           # Class weights
+    'random_state': [0],                           # Random seed
+    #'max_leaf_nodes': [None, 10, 20]              # Maximum leaf nodes
 }
 
 # Trading parameters
