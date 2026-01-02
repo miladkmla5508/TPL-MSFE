@@ -42,13 +42,13 @@ cv_window = 252        # Size of each CV fold (1 year)
 
 # Hyperparameter Grid for K-Nearest Neighbors
 param_grid = {
-    'n_neighbors': [10, 20, 30, 40, 50, 60],  # Reduced from too many options
-    'weights': ['uniform', 'distance'],
-    'algorithm': ['auto'],
-    'leaf_size': [10, 20, 30],
-    'p': [1, 2, 3],  # 1: Manhattan, 2: Euclidean, 3: Minkowski
-    'metric': ['minkowski', 'euclidean', 'manhattan', 'chebyshev'],
-    'n_jobs': [-1]
+    'n_neighbors': [10, 20, 30, 40, 50, 60],                         # Number of nearest neighbors
+    'weights': ['uniform', 'distance'],                              # Neighbor weighting scheme
+    'algorithm': ['auto'],                                           # Search algorithm selection
+    'leaf_size': [10, 20, 30],                                       # Tree leaf size (speed–memory tradeoff)
+    'p': [1, 2, 3],                                                  # Distance power (Minkowski)
+    'metric': ['minkowski', 'euclidean', 'manhattan', 'chebyshev'],  # Distance metric
+    'n_jobs': [-1]                                                   # Use all CPU cores
 }
 
 # Trading parameters
