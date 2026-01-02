@@ -40,10 +40,10 @@ cv_window = 252        # Size of each CV fold (1 year)
 
 # AdaBoost Hyperparameter Grid for Tuning
 param_grid = {
-    'n_estimators': [50, 100, 150, 200],      # Number of weak learners
-    'learning_rate': [0.01, 0.05, 0.1, 0.5, 1.0],  # Weight applied to each classifier
-    'algorithm': ['SAMME', 'SAMME.R'],         # Boosting algorithm
-    'random_state': [0],                       # Random seed for reproducibility
+    'n_estimators': [50, 100, 150, 200],            # Number of weak learners
+    'learning_rate': [0.01, 0.05, 0.1, 0.5, 1.0],   # Weight applied to each classifier
+    'algorithm': ['SAMME', 'SAMME.R'],              # Boosting algorithm
+    'random_state': [0],                            # Random seed for reproducibility
 }
 
 # Trading parameters
@@ -62,14 +62,14 @@ print(f"Total features available: {len(list_features)}")
 # ============================================================================
 # INITIALIZE STORAGE VARIABLES
 # ============================================================================
-yptt = []              # Store predictions for each window
-modelval_ADA = []       # Store trading system values over time
-y_test_window_ADA = []  # Store all test predictions concatenated
-feature_importance_history = []  # Store feature importance across windows
-estimator_errors_history = []    # Store estimator errors across windows
-best_params_history = []  # Store best parameters from CV for each window
-cv_results_history = []  # Store CV results for each window
-cv_folds_history = []    # Track number of CV folds used per window
+yptt = []                         # Store predictions for each window
+modelval_ADA = []                 # Store trading system values over time
+y_test_window_ADA = []            # Store all test predictions concatenated
+feature_importance_history = []   # Store feature importance across windows
+estimator_errors_history = []     # Store estimator errors across windows
+best_params_history = []          # Store best parameters from CV for each window
+cv_results_history = []           # Store CV results for each window
+cv_folds_history = []             # Track number of CV folds used per window
 
 # ============================================================================
 # SLIDING WINDOW TRAINING AND PREDICTION
