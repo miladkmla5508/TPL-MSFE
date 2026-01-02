@@ -50,17 +50,17 @@ riskfree = 0.02        # Risk-free rate for performance metrics
 cv_window = 252        # Size of each CV fold (1 year)
 
 param_grid = {
-    'iterations': [20, 40, 60],                  # Number of boosting iterations (trees)
-    'depth': [2, 3, 4],                          # Depth of the trees
-    'learning_rate': [0.01, 0.1, 1],             # Step size shrinkage
-    'l2_leaf_reg':  [0.01, 0.1, 1],              # L2 regularization term
-    'border_count': [32, 64, 128],               # Number of splits for numerical features
-    'random_strength': [0.5, 1, 2],              # Randomness in scoring
+    'iterations': [20, 40, 60],                   # Number of boosting iterations (trees)
+    'depth': [2, 3, 4],                           # Depth of the trees
+    'learning_rate': [0.01, 0.1, 1],              # Step size shrinkage
+    'l2_leaf_reg':  [0.01, 0.1, 1],               # L2 regularization term
+    'border_count': [32, 64, 128],                # Number of splits for numerical features
+    'random_strength': [0.5, 1, 2],               # Randomness in scoring
     #'bagging_temperature': [0.5, 1, 2],          # Controls randomness of bagging
-    'random_state': [0],                         # Random seed for reproducibility
-    'loss_function': ['Logloss'],                # Loss function for binary classification
-    'verbose': [False],                          # Disable training logs
-    'task_type': ['CPU'],                        # Use CPU for computation
+    'random_state': [0],                          # Random seed for reproducibility
+    'loss_function': ['Logloss'],                 # Loss function for binary classification
+    'verbose': [False],                           # Disable training logs
+    'task_type': ['CPU'],                         # Use CPU for computation
     #'thread_count': [-1],                        # Use all available cores
     #'bootstrap_type': ['Bayesian', 'Bernoulli'], # Bootstrap method
     #'leaf_estimation_iterations': [1],           # Number of gradient steps
