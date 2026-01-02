@@ -42,20 +42,20 @@ cv_window = 252        # Size of each CV fold (1 year)
 
 # Hyperparameter Grid for Random Forest
 param_grid = {
-    'n_estimators': [20, 40, 60, 80, 100],  # Number of trees
-    'criterion': ['gini', 'entropy'],  # Splitting criteria
-    'max_depth': [2, 3, 4, 5],  # Tree depth
-    'min_samples_split': [1, 2, 3, 4],  # Min samples to split
-    'min_samples_leaf': [1, 2, 3, 4],  # Min samples in leaf
-    'max_features': ['sqrt'],  # Features per split
-    'bootstrap': [True, False],  # Bootstrap sampling
-    'oob_score': [True],  # Out-of-bag score
-    'max_samples': [0.6, 0.7, 0.8],  # Bootstrap sample size
+    'n_estimators': [20, 40, 60, 80, 100],                      # Number of trees
+    'criterion': ['gini', 'entropy'],                           # Splitting criteria
+    'max_depth': [2, 3, 4, 5],                                  # Tree depth
+    'min_samples_split': [1, 2, 3, 4],                          # Min samples to split
+    'min_samples_leaf': [1, 2, 3, 4],                           # Min samples in leaf
+    'max_features': ['sqrt'],                                   # Features per split
+    'bootstrap': [True, False],                                 # Bootstrap sampling
+    'oob_score': [True],                                        # Out-of-bag score
+    'max_samples': [0.6, 0.7, 0.8],                             # Bootstrap sample size
     #'class_weight': [None, 'balanced', 'balanced_subsample'],  # Class weights
-    'random_state': [0],  # Random seed
-    #'min_impurity_decrease': [0.0, 0.001, 0.01],  # Impurity decrease threshold
-    #'ccp_alpha': [0.0, 0.001, 0.01],  # Complexity parameter for pruning
-    #'max_leaf_nodes': [None, 10, 20, 50, 100]  # Maximum leaf nodes
+    'random_state': [0],                                        # Random seed
+    #'min_impurity_decrease': [0.0, 0.001, 0.01],               # Impurity decrease threshold
+    #'ccp_alpha': [0.0, 0.001, 0.01],                           # Complexity parameter for pruning
+    #'max_leaf_nodes': [None, 10, 20, 50, 100]                  # Maximum leaf nodes
 }
 
 # Trading parameters
