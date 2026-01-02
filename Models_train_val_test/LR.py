@@ -40,19 +40,19 @@ riskfree = 0.02        # Risk-free rate for performance metrics
 # Walk-Forward Cross-Validation Parameters
 cv_window = 252        # Size of each CV fold (1 year)
 
-# Enhanced Hyperparameter Grid for Logistic Regression
+# Hyperparameter Grid for Logistic Regression
 param_grid = {
-    'C': [0.01, 0.1, 1.0, 10.0, 100.0],
-    'solver': ['newton-cg', 'lbfgs', 'liblinear', 'sag', 'saga'],
-    'max_iter': [20, 40, 60, 80, 100],
-    'random_state': [0],
-    #'class_weight': [None, 'balanced'],
-    #'fit_intercept': [True, False],
-    'warm_start': [False],
-    'verbose': [0],
-    #'tol': [1e-6, 1e-5, 1e-4],
-    'penalty': ['l2', 'l1', 'elasticnet', None],
-    'l1_ratio': [0.1, 0.2, 0.3]
+    'C': [0.01, 0.1, 1.0, 10.0, 100.0],                              # Regularization strength
+    'solver': ['newton-cg', 'lbfgs', 'liblinear', 'sag', 'saga'],    # Optimizer
+    'max_iter': [20, 40, 60, 80, 100],                               # Max iterations
+    'random_state': [0],                                             # Reproducibility
+    #'class_weight': [None, 'balanced'],                             # Handle class imbalance
+    #'fit_intercept': [True, False],                                 # Include bias term
+    'warm_start': [False],                                           # Reuse previous fit
+    'verbose': [0],                                                  # Verbosity level
+    #'tol': [1e-6, 1e-5, 1e-4],                                      # Convergence tolerance
+    'penalty': ['l2', 'l1', 'elasticnet', None],                     # Regularization type
+    'l1_ratio': [0.1, 0.2, 0.3]                                      # L1–L2 mix (elasticnet)
 }
 
 # Trading parameters
