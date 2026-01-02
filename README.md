@@ -43,7 +43,6 @@ This repository implements an advanced trading system designed to address the fu
 
 - Comprehensive sensitivity and ablation analyses are conducted under diverse parameter configurations to examine the trading system’s behavior in relation to overfitting and the leakage dilemma
 
-  
 
 ## Key Features
 
@@ -54,8 +53,6 @@ This repository implements an advanced trading system designed to address the fu
 - 📈 **Comprehensive Testing**: Validated on 30 NYSE100 stocks from 2012-2023
 - 💰 **Two-Sided Trading**: Greedy Long/Short strategy maximizing both buy and sell opportunities
 
-
-### 📦 Requirements
 
 ## 📥 Replication Package
 
