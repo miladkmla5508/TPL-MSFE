@@ -45,18 +45,18 @@ cv_window = 252        # Size of each CV fold (1 year)
 
 # XGBoost Hyperparameter Grid for Tuning
 param_grid = {
-    'learning_rate': [0.001, 0.01, 0.1, 1],     # Step size shrinkage
-    'max_depth': [2, 3, 4, 5],                  # Maximum tree depth
-    'n_estimators': [100, 200, 300],        # Number of boosting rounds
-    'gamma': [0.01, 0.1, 1],                     # Minimum loss reduction
+    'learning_rate': [0.001, 0.01, 0.1, 1],       # Step size shrinkage
+    'max_depth': [2, 3, 4, 5],                    # Maximum tree depth
+    'n_estimators': [100, 200, 300],              # Number of boosting rounds
+    'gamma': [0.01, 0.1, 1],                      # Minimum loss reduction
     #'subsample': [0.6, 0.8, 1.0],                # Subsample ratio of training instances
-    'colsample_bytree': [0.6, 0.8, 1.0],         # Subsample ratio of columns
+    'colsample_bytree': [0.6, 0.8, 1.0],          # Subsample ratio of columns
     #'min_child_weight': [1, 3, 5],               # Minimum sum of instance weight needed
-    #'reg_alpha': [0.001, 0.01, 0.1],                # L1 regularization term
-    'reg_lambda': [0.001, 0.01, 0.1],               # L2 regularization term
-    'objective': ['binary:logistic'],            # Learning task
-    'eval_metric': ['logloss'],                  # Evaluation metric for validation data
-    'random_state': [0],                         # Random seed
+    #'reg_alpha': [0.001, 0.01, 0.1],             # L1 regularization term
+    'reg_lambda': [0.001, 0.01, 0.1],             # L2 regularization term
+    'objective': ['binary:logistic'],             # Learning task
+    'eval_metric': ['logloss'],                   # Evaluation metric for validation data
+    'random_state': [0],                          # Random seed
     #'n_jobs': [-1],                              # Number of parallel threads
     #'tree_method': ['hist'],                     # Tree construction algorithm
     #'grow_policy': ['depthwise', 'lossguide'],   # Tree growth policy
