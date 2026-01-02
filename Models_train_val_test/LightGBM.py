@@ -52,19 +52,19 @@ cv_window = 252        # Size of each CV fold (1 year)
 
 # LightGBM Hyperparameter Grid for Tuning
 param_grid = {
-    'learning_rate': [0.001, 0.01, 0.1, 1],     # Step size shrinkage
-    'max_depth': [2, 3, 4, 5],                  # Maximum tree depth
-    'num_leaves': [2, 4, 6, 8],                 # Maximum number of leaves
+    'learning_rate': [0.001, 0.01, 0.1, 1],      # Step size shrinkage
+    'max_depth': [2, 3, 4, 5],                   # Maximum tree depth
+    'num_leaves': [2, 4, 6, 8],                  # Maximum number of leaves
     #'min_child_samples': [10, 20, 40, 80],      # Minimum data in leaf
     #'min_child_weight': [1e-5, 1e-3, 1e-1],     # Minimum sum of instance weight
-    'subsample': [0.2, 0.4, 0.6],               # Subsample ratio of training data
-    'colsample_bytree': [0.2, 0.4, 0.6],        # Subsample ratio of columns
-    'reg_alpha': [0.01, 0.1, 1.0],              # L1 regularization
-    'reg_lambda': [0.01, 0.1, 1.0,],            # L2 regularization
-    'n_estimators': [20, 40, 60],               # Number of boosting iterations
-    'random_state': [0],                        # Random seed
-    'objective': ['binary'],                    # Learning task type
-    'metric': ['binary_logloss'],               # Evaluation metric
+    'subsample': [0.2, 0.4, 0.6],                # Subsample ratio of training data
+    'colsample_bytree': [0.2, 0.4, 0.6],         # Subsample ratio of columns
+    'reg_alpha': [0.01, 0.1, 1.0],               # L1 regularization
+    'reg_lambda': [0.01, 0.1, 1.0,],             # L2 regularization
+    'n_estimators': [20, 40, 60],                # Number of boosting iterations
+    'random_state': [0],                         # Random seed
+    'objective': ['binary'],                     # Learning task type
+    'metric': ['binary_logloss'],                # Evaluation metric
     #'boosting_type': ['gbdt', 'dart', 'goss'],  # Boosting algorithms
     #'min_split_gain': [0.0, 0.1, 0.5],          # Minimum loss reduction
     #'subsample_freq': [1],                      # Frequency for bagging
