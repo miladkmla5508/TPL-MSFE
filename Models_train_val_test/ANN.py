@@ -39,28 +39,28 @@ cv_window = 252        # Size of each CV fold (1 year)
 
 # MLP Hyperparameter Grid for Tuning
 param_grid = {
-    'hidden_layer_sizes': [(16, 8), (32, 16), (32, 16, 8), (64, 32, 16)],  # Network architectures
-    'activation': ['relu', 'tanh', 'logistic'],  # Activation functions
-    'solver': ['adam', 'sgd', 'lbfgs'],  # Optimization algorithms
-    'alpha': [ 0.001, 0.01, 0.1],  # L2 regularization strength
-    'batch_size': [32, 64, 128],  # Mini-batch sizes
-    'learning_rate': ['constant', 'adaptive', 'invscaling'],  # Learning rate schedules
-    'learning_rate_init': [0.001, 0.01, 0.1],  # Initial learning rates
-    'max_iter': [200, 400, 600],  # Maximum iterations
-    'early_stopping': [True],  # Early stopping
-    #'validation_fraction': [0.1, 0.15, 0.2],  # Validation set size
-    #'n_iter_no_change': [10, 20, 50],  # Early stopping patience
-    #'tol': [1e-4, 1e-3, 1e-2],  # Tolerance for optimization
-    #'momentum': [0.8, 0.9, 0.95],  # Momentum for SGD
-    #'nesterovs_momentum': [True, False],  # Nesterov momentum
-    #'beta_1': [0.9, 0.95, 0.99],  # Adam beta1
-    #'beta_2': [0.999, 0.9999],  # Adam beta2
-    #'epsilon': [1e-8, 1e-7],  # Numerical stability
-    #'power_t': [0.5, 0.6],  # Power for inverse scaling
-    'random_state': [42],  # Random seed
-    'shuffle': [False],  # Shuffle training data
-    'warm_start': [False],  # Warm start
-    'verbose': [False]  # Verbosity
+    'hidden_layer_sizes': [(16, 8), (32, 16), (32, 16, 8), (64, 32, 16)],    # Network architectures
+    'activation': ['relu', 'tanh', 'logistic'],                              # Activation functions
+    'solver': ['adam', 'sgd', 'lbfgs'],                                      # Optimization algorithms
+    'alpha': [ 0.001, 0.01, 0.1],                                            # L2 regularization strength
+    'batch_size': [32, 64, 128],                                             # Mini-batch sizes
+    'learning_rate': ['constant', 'adaptive', 'invscaling'],                 # Learning rate schedules
+    'learning_rate_init': [0.001, 0.01, 0.1],                                # Initial learning rates
+    'max_iter': [200, 400, 600],                                             # Maximum iterations
+    'early_stopping': [True],                                                # Early stopping
+    #'validation_fraction': [0.1, 0.15, 0.2],                                # Validation set size
+    #'n_iter_no_change': [10, 20, 50],                                       # Early stopping patience
+    #'tol': [1e-4, 1e-3, 1e-2],                                              # Tolerance for optimization
+    #'momentum': [0.8, 0.9, 0.95],                                           # Momentum for SGD
+    #'nesterovs_momentum': [True, False],                                    # Nesterov momentum
+    #'beta_1': [0.9, 0.95, 0.99],                                            # Adam beta1
+    #'beta_2': [0.999, 0.9999],                                              # Adam beta2
+    #'epsilon': [1e-8, 1e-7],                                                # Numerical stability
+    #'power_t': [0.5, 0.6],                                                  # Power for inverse scaling
+    'random_state': [42],                                                    # Random seed
+    'shuffle': [False],                                                      # Shuffle training data
+    'warm_start': [False],                                                   # Warm start
+    'verbose': [False]                                                       # Verbosity
 }
 
 # Trading parameters
