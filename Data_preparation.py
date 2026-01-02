@@ -1,3 +1,4 @@
+import yfinance as yf
 df =  yf.download('C',start='2011-10-12', end = '2024-02-01',interval='1d')
 df.columns = [col[0] for col in df.columns]
 df
