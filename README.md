@@ -6,10 +6,10 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white&style=flat-square)](https://www.python.org/)
 
-[![NumPy](https://img.shields.io/badge/NumPy-1.26.4-013243?logo=numpy&logoColor=white&style=flat-square)](https://numpy.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-2.2.3-150458?logo=pandas&logoColor=white&style=flat-square)](https://pandas.pydata.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7.2-8e44ad?style=flat-square)](https://matplotlib.org/)
-[![Seaborn](https://img.shields.io/badge/Seaborn-0.12.2-4c72b0?style=flat-square)](https://seaborn.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-2.0.2-013243?logo=numpy&logoColor=white&style=flat-square)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.2.2-150458?logo=pandas&logoColor=white&style=flat-square)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10.0-8e44ad?style=flat-square)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-4c72b0?style=flat-square)](https://seaborn.pydata.org/)
 [![mplfinance](https://img.shields.io/badge/mplfinance-0.12.10b0-34495e?style=flat-square)](https://github.com/matplotlib/mplfinance)
 
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4.2-f7931e?logo=scikitlearn&logoColor=white&style=flat-square)](https://scikit-learn.org/)
@@ -22,7 +22,7 @@
 [![yfinance](https://img.shields.io/badge/yfinance-0.2.61-95a5a6?style=flat-square)](https://github.com/ranaroussi/yfinance)
 [![Market Calendars](https://img.shields.io/badge/Market%20Calendars-5.2.3-8e44ad?style=flat-square)](https://github.com/rsheftel/pandas_market_calendars)
 
-[![SHAP](https://img.shields.io/badge/SHAP-0.44.1-e74c3c?style=flat-square)](https://shap.readthedocs.io/)
+[![SHAP](https://img.shields.io/badge/SHAP-0.49.1-e74c3c?style=flat-square)](https://shap.readthedocs.io/)
 [![statsmodels](https://img.shields.io/badge/statsmodels-0.14.5-6c757d?style=flat-square)](https://www.statsmodels.org/)
 
 [![openpyxl](https://img.shields.io/badge/openpyxl-3.1.5-27ae60?style=flat-square)](https://openpyxl.readthedocs.io/)
@@ -55,28 +55,7 @@ This repository implements an advanced trading system designed to address the fu
 - 💰 **Two-Sided Trading**: Greedy Long/Short strategy maximizing both buy and sell opportunities
 
 
-## 📦 Requirements
-
-### Core Dependencies
-
-```txt
-NumPy: 1.26.4
-Pandas: 2.2.3
-Seaborn: 0.12.2
-Matplotlib: 3.7.2
-mplfinance: 0.12.10b0
-yfinance: 0.2.61
-scikit-learn: 1.4.2
-shap: 0.44.1
-openpyxl: 3.1.5
-TA-Lib: 0.6.8
-pandas_market_calendars: 5.2.3
-statsmodels: 0.14.5
-mlxtend: 0.23.4
-xgboost: 2.0.3
-catboost: 1.2.8
-lightgbm: 4.6.0
-```
+### 📦 Requirements
 
 ## 📥 Replication Package
 
