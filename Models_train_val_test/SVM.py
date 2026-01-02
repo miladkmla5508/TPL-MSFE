@@ -42,16 +42,16 @@ cv_window = 252        # Size of each CV fold (1 year)
 
 # Hyperparameter Grid for Support Vector Machine
 param_grid = {
-    'C': [0.01, 0.1, 1.0, 10.0, 100.0],  # Regularization parameter
+    'C': [0.01, 0.1, 1.0, 10.0, 100.0],              # Regularization parameter
     'kernel': ['linear', 'rbf', 'poly', 'sigmoid'],  # Kernel types
-    'gamma': ['scale', 'auto', 0.01, 0.1, 1.0],  # Kernel coefficient
-    'degree': [2, 3, 4],  # For polynomial kernel
-    'coef0': [0.0, 0.1, 0.5, 1.0],  # For poly and sigmoid kernels
+    'gamma': ['scale', 'auto', 0.01, 0.1, 1.0],      # Kernel coefficient
+    'degree': [2, 3, 4],                             # For polynomial kernel
+    'coef0': [0.0, 0.1, 0.5, 1.0],                   # For poly and sigmoid kernels
     #'shrinking': [True, False],
     'probability': [True],
     #'cache_size': [200],
     #'class_weight': [None, 'balanced'],
-    'max_iter': [10000],  # Increased for convergence
+    'max_iter': [10000],                             # Increased for convergence
     'random_state': [0],
     #'tol': [1e-3, 1e-4],
     'verbose': [False]
